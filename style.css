@@ -1,0 +1,33 @@
+/* Comportamento normal Desktop*/
+
+body {
+    margin:0px;
+    padding: 0px;
+}
+
+.cabecalho {
+    background-color: rgb(117, 216, 122);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.conteudo {
+    padding: 20px;
+}
+
+/* Resoluções especificas -> iphone (600) */
+@media screen and (max-width:600px){
+    /* atributos alterados nessa resolução */
+    .cabecalho {
+        background: rgb(117, 148, 216);
+    }
+}
+
+/* Resoluções especificas -> ipad (1024) */
+@media screen and (min-width:601px) and (max-width:1024px){
+    /* atributos alterados nessa resolução */
+    .cabecalho {
+        background: rgb(152, 55, 177);
+    }
+
